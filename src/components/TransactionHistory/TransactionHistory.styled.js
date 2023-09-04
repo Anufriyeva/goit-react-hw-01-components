@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const TransactionHistoryWrapper = styled.table`
-  width: 100%;
+  width: 50%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin: 20px auto;
+  text-align: left;
 `;
 
 export const TableHeader = styled.thead`

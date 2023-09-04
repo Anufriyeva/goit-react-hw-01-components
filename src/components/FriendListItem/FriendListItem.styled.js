@@ -4,6 +4,8 @@ export const FriendListItemWrapper = styled.li`
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  gap: 20px;
+  /* justify-content: space-between; */
 `;
 
 export const Status = styled.span`
@@ -23,4 +25,5 @@ export const Avatar = styled.img`
 export const Name = styled.p`
   font-size: 16px;
   font-weight: bold;
+  color: #fff;
 `;
