@@ -10,7 +10,7 @@ export const Status = styled.span`
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background-color: ${({ isOnline }) => (isOnline ? 'green' : 'red')};
+  background-color: ${({ $isOnline }) => ($isOnline ? 'green' : 'red')};
   margin-right: 10px;
 `;
 

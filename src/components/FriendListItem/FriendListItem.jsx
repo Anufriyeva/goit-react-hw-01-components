@@ -9,7 +9,7 @@ import {
 
 const FriendListItem = ({ avatar, name, isOnline }) => (
   <FriendListItemWrapper>
-    <Status isOnline={isOnline} />
+    <Status $isOnline={isOnline} />
     <Avatar src={avatar} alt={`${name}'s avatar`} />
     <Name>{name}</Name>
   </FriendListItemWrapper>
